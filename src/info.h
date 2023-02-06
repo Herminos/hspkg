@@ -12,4 +12,4 @@ void ERROR(string info);
 
 void FATAL(string info);
 
-string QUES(string question;)
+string QUES(string question);
