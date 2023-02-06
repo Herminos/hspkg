@@ -1,2 +1,2 @@
 # hspkg
- A lib manganger, uses with CMake
+ A lib manganger and CMake generator, uses with CMake
