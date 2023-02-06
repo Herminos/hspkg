@@ -2,6 +2,7 @@
 #include<io.h>
 #include<direct.h>
 
+#include"generate.h"
 #include"info.h"
 #include"description.h"
 
@@ -85,7 +86,7 @@ int main(int argc,char *argv[])
         }
         if(strcmp(argv[1],"-generate"))
         {
-
+            GENERATE_MANUALLY(argv[2]);
         }
         else
         {

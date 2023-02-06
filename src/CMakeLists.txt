@@ -4,7 +4,7 @@ project(hspkg)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(hspkg main.cpp)
+add_executable(hspkg main.cpp description.cpp generate.cpp info.cpp)
 
 target_compile_features(hspkg PRIVATE cxx_std_17)
 
